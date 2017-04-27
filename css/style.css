@@ -53,3 +53,22 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+.container {
+	background: orange;
+	display: inline;
+}
+
+h1 {
+	color: white;
+	em: 5em;
+}
+
+h2 {
+	color: orange;
+}
+
+.instructions {
+	border-color: orange;
+	background: white;
+}
+	
