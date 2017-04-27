@@ -71,4 +71,12 @@ h2 {
 	border-color: orange;
 	background: white;
 }
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
 	
