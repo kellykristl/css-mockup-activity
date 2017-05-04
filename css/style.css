@@ -91,4 +91,30 @@ header h1 {
 	line-height: 1.5rem;
 }
 
+section:nth-child(2) {
+	background-color: lightgray;
+	color: #555555;
+}
+
+img[alt="captain picard"] {
+	width: 300px;
+}
+
+section:last-child h2 {
+	color: darkorange;
+	text-align: right;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+th, td {
+	background-color: darkorange;
+	color: white;
+	padding: 1rem;
+
+}
+
 	
