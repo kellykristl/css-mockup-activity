@@ -53,30 +53,42 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
-.container {
-	background: orange;
-	display: inline;
+.body {
+	font-family: sans-serif;
 }
+/* header styles */
 
-h1 {
+.header {
+	background-color: darkorange;
 	color: white;
-	em: 5em;
+	padding: 2rem 0;
 }
 
-h2 {
-	color: orange;
+header h1 {
+	margin: 0 3rem 0 0;
+	font-size: 4.5rem;
+	display: inline-block;
+}
+
+.section:first-child {
+	background: orange;
 }
 
 .instructions {
-	border-color: orange;
-	background: white;
+	border: 3px solid darkorange;
+	padding 3rem;
+	color: darkorange;
 }
 
 .pull-left {
 	float: left;
 }
 
-.pull-right {
-	float: right;
+.instructions img {
+	width: 250px;
+	border: 3px solid lightgray;
+	font-weight: bold;
+	line-height: 1.5rem;
 }
+
 	
